@@ -1,0 +1,13 @@
+
+
+*** Build the executable with the command below ***
+
+g++ graphicview.cpp main.cpp ECGraphicViewImp.cpp  -lallegro -lallegro_primitives -lallegro_image -lallegro_main -std=c++11
+
+*** Written Submission ***
+
+1. I implemented the first 3 questions of part 1. My program supports using the spacebar to toggle between edit and insertion mode. Insertion mode displays a rectangle shape on the screen while clicking and dragging, and inserts a rectangle onto the view when the click is released. Edit mode allows the user to select a shape (making the color blue) and drag selected shapes into new positions. Using the d key on selected objects removes them.
+
+2. I was unable to fully implement the undo and redo functionalities in the time allotted, and I have not implemented ways to insert and edit shapes other than rectangles. I plan to work on these in the next few days along with part 2 of the project.
+
+3. One of the more noticable bugs in my program is that shapes selected in edit mode remain selected when switching to insertion mode. Besides this, much of the code works smoothly.

@@ -1,0 +1,14 @@
+*** Build and run the executable with the commands below ***
+
+g++ *.cpp -lallegro -lallegro_primitives -lallegro_image -lallegro_main -std=c++11
+
+./a.out tmp.dat 
+
+*** Written Submission ***
+
+1. I implemented the first 3 questions of part 1. My program supports using the spacebar to toggle between edit and insertion mode. Insertion mode displays a rectangle shape on the screen while clicking and dragging, and inserts a rectangle onto the view when the click is released. Edit mode allows the user to select a shape (making the color blue) and drag selected shapes into new positions. Using the d key on selected objects removes them. 
+From part 2, I implemented ways for the user to insert ellipses and toggle between ellipse and rectangle insertion mode with the g key - ellipses have the same functionalities as rectangles. The user can also use the f key to toggle between inserting filled and non-filled shapes. My code supports selection of multiple shapes by holding the ctrl key, as well as shape movement using the up/down/left/right keys. The program is able to load a save file as specified by the executable command.
+
+2. I was unable to fully implement the undo and redo functionalities in the time allotted, although the majority of the code for these aspects can be found in my command documents. I also could not support shape grouping and ungrouping, so functionalities requiring composite shape implementations were not fully developed. The code also does not save changes to a data file, although it can use a data file (where all shapes are black) to load as a preset when the program starts up.
+
+3.  One of the most noticable bugs in my code is that dragging multiple shapes across the screen is not smooth. Another small bug is that shapes included from a save file may not appear on screen immediately after running the executable, and the user may need to click the screen once or twice for the view to refresh so they may appear.
