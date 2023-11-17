@@ -1,6 +1,8 @@
 # graphic-editor
 C++ basic graphic editor for in-class project; completed as UConn's CSE 3150 course's final project in Fall 2022. 
 
+<img width="712" alt="insert filled rectangle and ellipse" src="https://github.com/ariblack17/graphic-editor/assets/115741421/9643ffc5-5597-4128-ad21-7ae1c1af6a9f">
+
 Note: code is not optimized and contains some bugs, but editor is functional.
 
 ## project specifications
