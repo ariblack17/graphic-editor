@@ -5,22 +5,22 @@ C++ basic graphic editor for in-class project; completed as UConn's CSE 3150 cou
 
 Note: code is not optimized and contains some bugs, but editor is functional.
 
-## project specifications
+## Project specifications
 
-### goals
+### Goals
 The goal of this project was to, using Allegro5 and some skeleton starter code, develop a C++ program with a graphical user interface.
 The result was a graphic editor, such that the user could draw and edit simple graphics (shapes). There was a specific emphasis on 
 developing object-oriented code which follow a few design patterns, including 'model-view-controller', 'commands', and 'observers'.
 
 
-### background
+### Background
 The project was split into two main parts, both of which contain a textfile write-up summarizing the implemented features, 
 missing features, and known bugs.
 
 The starter code provided a basic graphic user interface and a very brief outline of the expected structure of the program. 
 
 
-### part 1
+### Part 1
 The first portion of the project defined the implementation of two modes: insertion and edit mode, such that the user could toggle
 between the two modes using the space key. By default, the editor is in edit mode.
 
@@ -33,7 +33,7 @@ by pressing 'd'.
 **Undo and redo** functionalities were also introduced, which allow the user to press 'z' to undo or 'y' to redo any action in either mode.
 
 
-### part 2
+### Part 2
 The second part of the project added more functionalities to each of the implementations in part 1. 
 
 For **insertion mode**, the user can now use 'g' to toggle between rectangle and ellipse insertion mode. They can also use 'f' to toggle
